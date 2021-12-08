@@ -116,8 +116,9 @@ while True:
                 while True:
                     if (future.running()):
                         frame, score = camera(score)
-                        cv2.putText(frame, 'ALARM', (150, 75), font, 4, (0, 0, 255), 4, cv2.LINE_AA)
-
+                        cv2.putText(frame, 'ALARM', (250, 75), font, 2, (0, 0, 255), 2, cv2.LINE_AA)
+                        cv2.putText(frame, 'You have to say :', (25, 450), font, 1, (255, 255, 0), 1,cv2.LINE_AA)
+                        cv2.putText(frame, f'{MyList[word]}', (300,450), font, 3, (255, 0, 255), 2, cv2.LINE_AA)
                         cv2.imshow("Drowsinness dectector", frame)
                         if cv2.waitKey(20) & 0xFF == ord('q'):
                             break

@@ -6,3 +6,5 @@ We have used :</br>
 - SpeechRecognition for voice recognition and transforming voice into text </br>
 - the Concurrent.future module to ensure asynchronous execution of the alarm and voice recognition </br>
 
+Demo Link: https://www.linkedin.com/posts/ghaylen-triki-926a7a199_computerabrvision-speechrecognition-senti-activity-6880146456011915264-mx2q </br>
+
